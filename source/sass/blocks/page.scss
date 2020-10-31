@@ -1,0 +1,40 @@
+.page__header-wrap {
+  max-width: 1366px;
+  height: 650px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #3a679a;
+  background-image: url("../img/bg_intro_desktop_1x.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/bg_intro_desktop_2x.jpg");
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .page__header-wrap {
+    max-width: 768px;
+    height: 638px;
+    background-image: url("../img/bg_intro_tablet_1x.jpg");
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg_intro_tablet_2x.jpg");
+    }
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .page__header-wrap {
+    max-width: 320px;
+    height: 500px;
+    background-image: url("../img/bg_intro_mobile_1x.jpg");
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/bg_intro_mobile_2x.jpg");
+    }
+  }
+}
