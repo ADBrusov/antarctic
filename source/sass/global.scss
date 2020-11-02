@@ -1,8 +1,14 @@
 html {
   box-sizing: border-box;
+  height: 100%;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-width: $min-width;
+  height: 100%;
+
   font-family: "Montserrat", "Arial", sans-serif;
 }
 
