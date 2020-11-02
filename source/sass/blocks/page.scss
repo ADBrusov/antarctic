@@ -1,8 +1,10 @@
 .page__header-wrap {
+  flex: 0 0 auto;
+  width: 100%;
   max-width: 1366px;
   height: 650px;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 
   background-color: #3a679a;
   background-image: url("../img/bg_intro_desktop_1x.jpg");
@@ -19,6 +21,7 @@
   .page__header-wrap {
     max-width: 768px;
     height: 638px;
+
     background-image: url("../img/bg_intro_tablet_1x.jpg");
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -31,6 +34,7 @@
   .page__header-wrap {
     max-width: 320px;
     height: 500px;
+
     background-image: url("../img/bg_intro_mobile_1x.jpg");
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
