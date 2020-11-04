@@ -1,14 +1,14 @@
 .intro {
   display: flex;
   flex-direction: column;
-  padding-top: 210px;
+  padding-top: 197px;
   padding-right: 103px;
   padding-left: 198px;
 }
 
 .intro__title {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 
   font-weight: bold;
   font-size: 54px;
@@ -27,13 +27,13 @@
 
 @media (max-width: $tablet-width) {
   .intro {
-    padding-top: 230px;
+    padding-top: 218px;
     padding-right: 45px;
     padding-left: 45px;
   }
 
   .intro__title {
-    margin-bottom: 29px;
+    margin-bottom: 12px;
 
     font-size: 50px;
     line-height: 61px;
@@ -47,13 +47,13 @@
 
 @media (max-width: $mobile-width) {
   .intro {
-    padding-top: 143px;
+    padding-top: 135px;
     padding-right: 15px;
     padding-left: 15px;
   }
 
   .intro__title {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 
     font-size: 36px;
     line-height: 125%;
