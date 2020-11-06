@@ -2,7 +2,6 @@
   flex: 0 0 auto;
   width: 100%;
   max-width: 1366px;
-  height: 650px;
   margin-right: auto;
   margin-left: auto;
 
@@ -24,8 +23,8 @@
   margin-right: auto;
   margin-left: auto;
   padding-top: 35px;
-  padding-right: 103px;
-  padding-left: 103px;
+  padding-right: 7.540263543191801%; // 103px / 1366px * 100%
+  padding-left: 7.540263543191801%; // 103px / 1366px * 100%
 }
 
 .page-header__logo {
@@ -45,9 +44,6 @@
 
 @media (max-width: $tablet-width) {
   .page-header {
-    max-width: 768px;
-    height: 638px;
-
     background-image: url("../img/bg_intro_tablet_1x.jpg");
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -57,8 +53,8 @@
 
   .page-header__container {
     padding-top: 30px;
-    padding-right: 45px;
-    padding-left: 45px;
+    padding-right: 5.859375%; // 45px / 768px * 100%
+    padding-left: 5.859375%; // 45px / 768px * 100%
   }
 
   .page-header__logo {
@@ -69,9 +65,6 @@
 
 @media (max-width: $mobile-width) {
   .page-header {
-    max-width: 320px;
-    height: 500px;
-
     background-image: url("../img/bg_intro_mobile_1x.jpg");
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -81,21 +74,21 @@
 
   .page-header--opened,
   .page-header--nojs {
-    height: 799px;
-    background-size: 320px 500px;
-    background-position-y: 299px;
+    background-position-y: 276px;
   }
 
   .page-header--opened .page-header__container,
   .page-header--nojs .page-header__container {
+    align-items: flex-start;
+
     background-color: #f9fbfd;
   }
 
   .page-header__container {
     flex-wrap: wrap;
     padding-top: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 4.6875%; // 15px / 320px * 100%
+    padding-left: 4.6875%; // 15px / 320px * 100%
   }
 
   .page-header__logo {
@@ -145,6 +138,11 @@
     display: block;
   }
 
+  .page-header--opened .nav,
+  .page-header--nojs .nav {
+    width: 100%;
+  }
+
   .page-header--opened .nav__list-item,
   .page-header--nojs .nav__list-item {
     padding-bottom: 21px;
@@ -155,12 +153,6 @@
 
     &:last-child {
       padding-bottom: 60px;
-    }
-
-    & a {
-      font-size: 18px;
-      line-height: 22px;
-      color: #011c40;
     }
   }
 }
