@@ -7,9 +7,9 @@
   margin-right: auto;
   margin-left: auto;
   padding-top: 118px;
-  padding-right: 103px;
+  padding-right: 7.540263543191801%; // 103px / 1366px * 100%
   padding-bottom: 118px;
-  padding-left: 103px;
+  padding-left: 7.540263543191801%; // 103px / 1366px * 100%
 }
 
 .journey__container {
@@ -41,15 +41,15 @@
 
 .journey__image {
   flex: 1 0 auto;
+  width: 48.27586206896552%; // 560px / 1160px * 100%
 }
 
 @media (max-width: $tablet-width) {
   .journey {
-    max-width: 768px;
     padding-top: 90px;
-    padding-right: 45px;
+    padding-right: 5.859375%; // 45px / 768px * 100%
     padding-bottom: 92px;
-    padding-left: 45px;
+    padding-left: 5.859375%; // 45px / 768px * 100%
   }
 
   .journey__container {
@@ -65,18 +65,17 @@
   }
 
   .journey__image {
-    max-width: 324px;
+    width: 47.78761061946903%; // 324px / 678px * 100%
   }
 }
 
 @media (max-width: $mobile-width) {
   .journey {
     flex-direction: column;
-    max-width: 320px;
     padding-top: 57px;
-    padding-right: 15px;
+    padding-right: 4.6875%; // 15px / 320px * 100%
     padding-bottom: 60px;
-    padding-left: 15px;
+    padding-left: 4.6875%; // 15px / 320px * 100%
   }
 
   .journey__container {
@@ -90,7 +89,8 @@
   }
 
   .journey__image {
-    max-width: 290px;
+    width: 100%;
     margin-top: -6px;
+    text-align: center;
   }
 }

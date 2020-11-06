@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   padding-top: 197px;
-  padding-right: 103px;
-  padding-left: 198px;
+  padding-right: 7.540263543191801%; // 103px / 1366px * 100%
+  padding-bottom: 278px;
+  padding-left: 14.49487554904832%; // 198px / 1366px * 100%
 }
 
 .intro__title {
@@ -28,8 +29,9 @@
 @media (max-width: $tablet-width) {
   .intro {
     padding-top: 218px;
-    padding-right: 45px;
-    padding-left: 45px;
+    padding-right: 5.859375%; // 45px / 768px * 100%
+    padding-left: 5.859375%; // 45px / 768px * 100%
+    padding-bottom: 275px;
   }
 
   .intro__title {
@@ -48,8 +50,9 @@
 @media (max-width: $mobile-width) {
   .intro {
     padding-top: 135px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 4.6875%; // 15px / 320px * 100%
+    padding-left: 4.6875%; // 15px / 320px * 100%
+    padding-bottom: 179px;
   }
 
   .intro__title {
