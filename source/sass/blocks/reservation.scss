@@ -22,9 +22,7 @@
 }
 
 .reservation__container {
-  display: flex;
   flex: 0 1 auto;
-  flex-direction: column;
   padding-top: 163px;
 }
 
@@ -49,9 +47,7 @@
 }
 
 .reservation__form-wrap {
-  display: flex;
   flex: 0 0 auto;
-  flex-direction: column;
   width: 403px;
   padding-top: 44px;
   padding-right: 50px;
@@ -70,11 +66,6 @@
   font-size: 18px;
   line-height: 27px;
   color: #f9fbfd;
-}
-
-.reservation__form {
-  display: flex;
-  flex-direction: column;
 }
 
 .reservation__form-section {

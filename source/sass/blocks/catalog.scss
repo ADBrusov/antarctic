@@ -1,6 +1,4 @@
 .catalog {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   width: 100%;
   max-width: 1366px;
@@ -13,6 +11,7 @@
 }
 
 .catalog h2 {
+  text-align: center;
   margin-top: 0;
   margin-bottom: 49px;
 
