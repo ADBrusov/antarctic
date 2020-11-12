@@ -141,10 +141,10 @@
 
 @media (max-width: $mobile-width) {
   .advantages {
-    background-image: url("../img/bg_advantages_mobile_1x.png");
+    background-image: url("../img/bg_advantages_mobile_1x.jpg");
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-      background-image: url("../img/bg_advantages_mobile_2x.png");
+      background-image: url("../img/bg_advantages_mobile_2x.jpg");
     }
   }
 
