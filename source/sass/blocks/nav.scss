@@ -47,6 +47,11 @@
     flex-direction: column;
   }
 
+  .nav__list-item--directions {
+    order: -1;
+    padding-top: 46px;
+  }
+
   .page-header--opened a,
   .page-header--nojs a {
     font-size: 18px;

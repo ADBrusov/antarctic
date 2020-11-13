@@ -72,7 +72,12 @@
     }
   }
 
-  .page-header--opened,
+  .page-header--opened {
+    position: relative;
+    z-index: 2;
+    background: none;
+  }
+
   .page-header--nojs {
     background-position-y: 276px;
   }
@@ -80,8 +85,12 @@
   .page-header--opened .page-header__container,
   .page-header--nojs .page-header__container {
     align-items: flex-start;
-
     background-color: #f9fbfd;
+  }
+
+  .page-header--opened .page-header__container {
+    position: fixed;
+    width: 100%;
   }
 
   .page-header__container {
@@ -118,6 +127,7 @@
     display: block;
     width: 13px;
     height: 13px;
+    margin-top: 5px;
 
     background-color: transparent;
     background-image: url("../img/icon-cross.svg");
@@ -147,12 +157,13 @@
   .page-header--nojs .nav__list-item {
     padding-bottom: 21px;
 
-    &:first-child {
-      padding-top: 46px;
-    }
-
     &:last-child {
       padding-bottom: 60px;
     }
+  }
+
+  .page-header--opened + .page-main,
+  .page-header--opened + .page-main + .page-footer {
+    display: none;
   }
 }
