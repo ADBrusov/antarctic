@@ -49,6 +49,10 @@
   width: 31.03%; // 360px / 1160px * 100%
 
   background: #f9fbfd;
+
+  &:nth-child(n + 4) {
+    margin-top: 30px;
+  }
 }
 
 .advantage__container {
@@ -168,6 +172,10 @@
   .advantage {
     width: 100%;
     min-height: 250px;
+
+    &:nth-child(n + 4) {
+      margin-top: 0;
+    }
 
     &:not(:last-child) {
       margin-bottom: 30px;
