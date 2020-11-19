@@ -1,13 +1,12 @@
 .advantages {
   width: 100%;
-  max-width: 1366px;
   margin-right: auto;
   margin-left: auto;
 
   background-color: #e3ecf6;
   background-image: url("../img/bg_advantages_desktop_1x.png");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center;
   background-size: cover;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -22,6 +21,9 @@
   padding-right: 7.54%; // 103px / 1366px * 100%
   padding-bottom: 121px;
   padding-left: 7.54%; // 103px / 1366px * 100%
+  max-width: 1366px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .advantages h2 {

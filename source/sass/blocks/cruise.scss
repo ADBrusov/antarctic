@@ -9,7 +9,15 @@
   padding-left: 30px;
 
   &:hover,
-  &:focus,
+  &:focus {
+    justify-content: flex-start;
+    padding-bottom: 35px;
+    padding-left: 25px;
+
+    background: #011c40;
+    box-shadow: 0 4px 35px rgba(1, 28, 64, 0.15);
+  }
+
   &:focus-within {
     justify-content: flex-start;
     padding-bottom: 35px;
@@ -88,7 +96,10 @@
 }
 
 .cruise:hover h3,
-.cruise:focus h3,
+.cruise:focus h3 {
+  margin-bottom: 14px;
+}
+
 .cruise:focus-within h3 {
   margin-bottom: 14px;
 }
@@ -119,13 +130,19 @@
 }
 
 .cruise:hover .cruise__section,
-.cruise:focus .cruise__section,
+.cruise:focus .cruise__section {
+  display: block;
+}
+
 .cruise:focus-within .cruise__section {
   display: block;
 }
 
 .cruise:hover .cruise__button,
-.cruise:focus .cruise__button,
+.cruise:focus .cruise__button {
+  display: block;
+}
+
 .cruise:focus-within .cruise__button {
   display: block;
 }
@@ -237,6 +254,10 @@
 
     &:hover,
     &:focus {
+      padding-left: 25px;
+    }
+
+    &:focus-within {
       padding-left: 25px;
     }
   }

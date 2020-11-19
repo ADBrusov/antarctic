@@ -1,14 +1,13 @@
 .page-header {
   flex: 0 0 auto;
   width: 100%;
-  max-width: 1366px;
   margin-right: auto;
   margin-left: auto;
 
   background-color: #3a679a;
   background-image: url("../img/bg_intro_desktop_1x.jpg");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center;
   background-size: cover;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -17,6 +16,7 @@
 }
 
 .page-header__container {
+  max-width: 1366px;
   display: flex;
   justify-content: space-between;
   align-items: center;

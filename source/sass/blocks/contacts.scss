@@ -65,6 +65,14 @@
 
 .contacts__telephone a {
   color: #011c40;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .contacts__address p,
