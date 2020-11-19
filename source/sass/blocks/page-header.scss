@@ -120,6 +120,7 @@
     background-image: url("../img/icon-burger.svg");
     background-size: 20px auto;
     background-repeat: no-repeat;
+    background-position-x: right;
     border: 0;
     cursor: pointer;
   }
@@ -134,7 +135,7 @@
     background-image: url("../img/icon-cross.svg");
     background-size: 13px auto;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-position-x: right;
     border: 0;
     cursor: pointer;
   }
