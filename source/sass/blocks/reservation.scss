@@ -118,6 +118,18 @@
   }
 }
 
+.reservation__form-section--confirmation label:hover {
+  &::before {
+    opacity: 0.7;
+  }
+}
+
+.reservation__form-section--confirmation label:active {
+  &::before {
+    opacity: 0.3;
+  }
+}
+
 .reservation__form-section--confirmation input:focus + label {
   outline: 1px solid white;
 }
